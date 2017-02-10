@@ -1,3 +1,6 @@
+#Loan Prediction practice problem from analyticsvidhya.com
+#https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/
+
 loanData<-read.csv("train_u6lujuX_CVtuZ9i.csv",header = TRUE)
 
 loanData$Gender<-ifelse(loanData$Gender=="",NA,loanData$Gender)
